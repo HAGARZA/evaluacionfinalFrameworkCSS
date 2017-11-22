@@ -1,0 +1,160 @@
+/* *****  Clase para body  **** */
+.f-gastronomia-body {
+  background: url(../../img/foundation/f-gastronomia-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+/*Foundation Gastronomia platillos parte superior del titulo*/
+@font-face {
+	font-family: Lato-BoldItalic;
+  src: url(../../fuentes/Lato-BoldItalic.ttf);
+  font-weight: normal;
+  font-style:normal;
+}
+
+.titulo{
+  	font-family: Lato-BoldItalic;
+    font-weight:bold;
+    color: #FFFFFF;
+}
+/*Foundation Gastronomia platillos Lado izquierdo*/
+i.fi-magnifying-glass {
+   font-size:25px;
+   padding-left: 12px;
+   margin-right:5px;
+}
+
+.columna-izquierda {
+  background-color:#DDDFF4;
+}
+
+.buscador {
+  margin-left:16px;
+}
+
+.span-buscador {
+  background-color:#D75FAD;
+  padding-right:6px;
+  padding-bottom:8.4px;
+  padding-top:12.5px;
+}
+
+.barra_nav_vertical ul{
+   margin: 0px;
+   padding: 0px;
+   list-style-type: none;
+   list-style-image: none;
+   list-style-position: outside;
+}
+
+.barra_nav_vertical li{
+   padding: 1px 0 2px 4px;
+   margin: 0px;
+   background-color: #dfe8e5;
+}
+
+
+li.menu-izquierdo{
+  background-color:#DDDFF4;
+  border:1px solid #E5C8EA;
+  font-size: 22px;
+}
+
+li.menu-izquierdo2{
+  background-color:#DDDFF4;
+}
+
+.barra_nav_vertical a{
+   text-decoration: none;
+}
+
+.titulo-barra-izquierda {
+   color:#CDA0CA;
+   font-size:18px;
+   font-weight:bold;
+}
+
+.color-titulo {
+  color: #D75FAD;
+}
+
+/*Foundation Gastronomia platillos Lado derecho*/
+@font-face {
+	font-family: Crash-Bandicoot-Wumpa;
+  src: url(../../fuentes/a-song-for-jennifer/a song for jennifer bold.ttf);
+  font-weight: normal;
+  font-style:normal;
+}
+
+@font-face {
+	font-family: FuenteLato;
+	src: url(../../fuentes/Lato-LightItalic.ttf);
+}
+
+
+.slogan{
+  	font-family: Crash-Bandicoot-Wumpa;
+    font-weight:bold;
+    color: #FFFFFF;
+}
+
+.encabezado_articulo{
+  	font-family:  FuenteLato;
+    font-style: italic;
+    font-weight:bold;
+    padding-left: 15px;
+}
+
+.div-platillo1{
+  background-color:#FFE9F8;
+  padding-top:20px;
+}
+
+.div-platillo2{
+  background-color:#FFE9F8;
+  margin-top:15px;
+  padding-top:20px;
+}
+
+.img-platillos {
+  width: 100%;
+}
+
+div.secondary.callout.text-center.div-platillos {
+  background-color:#FFE9F8;
+  border: none;
+
+}
+
+.div-comentario {
+  border:1px solid #F1DDEC;
+  padding-top:15px;
+  border-radius:15px 15px 15px 15px;
+  margin-top:5px;
+}
+
+.img-comentario {
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.user-comentario {
+  font-size:13px;
+  padding-top:10px;
+  margin-right:10px;
+}
+
+.comentario {
+  font-size:13px;
+  padding-top:10px;
+  margin-right:10px;
+}
+
+.button{
+  background-color: #D75FAD;
+}
+
+.input-comentario {
+  height:100px;
+}

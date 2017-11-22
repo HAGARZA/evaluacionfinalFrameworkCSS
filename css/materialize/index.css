@@ -1,0 +1,112 @@
+/*Con esta lineas de codigo ponemos el backround en toda la pantalla*/
+#seccion1 {
+  background: url(../../img/materialize/m-background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px
+}
+/*Con estas lineas de codigo ponemos en su lugar a la barra superior*/
+.barra-superior{
+  min-height:200px;
+  position: fixed;
+}
+/*clase de la Imagen de logo*/
+.logomat{
+  position:relative;
+  width:80%;
+  height:80%;
+  margin-top:40px;
+  border:none;
+}
+/*un salto de los botones para que se mire un poco mejor*/
+.divbotones {
+  margin-top:10px;
+}
+/*titulo superior*/
+.titulo_superior {
+   position:relative;
+   padding-right:150px;
+   padding-top:80px;
+}
+/*clase de las imagenes de redes sociales*/
+.img-redes {
+   margin-bottom:30px;
+}
+/*estilos de paisajes*/
+.paisaje1,.paisaje2,.paisaje3,.paisaje4,.paisaje5 {
+  width:100%;
+  border:none;
+  padding-bottom:3px;
+}
+.paisaje3 {
+  height:425px;
+}
+.paisaje4 {
+   height:245px;
+}
+.paisaje5 {
+   height:178px;
+}
+/*para pasar por delante de los div*/
+.divrow {
+  margin-left:10px;
+  margin-right:10px;
+  position:relative;
+}
+/*imagen de articulo*/
+.img-articulo {
+  width:100%;
+  border:none;
+  margin-top:20px;
+}
+/*titulo del articulo*/
+.titulo-articulo {
+   padding-top:15px;
+   position:relative;"
+}
+/*titulo circular*/
+.titulos-circulares {
+  background-color:#C5C3C5;
+  border-radius:15px 15px 15px 15px;
+  font-size:10px;font-weight:bold;
+  padding-left:10px;
+  width:50%;
+}
+/*icono de titulo circular*/
+i.material-icons.right.icono-titulo {
+  font-size:17px;
+  padding-right:20px;
+}
+/*imagen de autor*/
+.img-autor {
+  width:40%;
+  border:none;
+  margin-top:20px;
+}
+/*media query para arreglar algunos elementos*/
+@media (max-width: 480px) {
+
+  h3.light.grey-text.text-lighten-3.left.titulo_superior {
+    color: black!important;
+    font-weight:bold;
+    padding: 0px;
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  .titulos-circulares {
+    font-size:8px;
+  }
+
+  i.material-icons.right.icono-titulo {
+    font-size:11px;
+    padding-right:8px;
+  }
+
+  div.l4.col.transparent.autor {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ }
+/**/
